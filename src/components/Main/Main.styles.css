@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.main {
+    height: 85vh;
+    padding: 30px;
+    overflow-y: scroll;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,26 @@
+.search-form {
+    max-width: 630px;
+    padding: 15px;
+    margin: 25px auto 15px 0;
+    display: flex;
+    align-items: center;
+    background-color: #5A5C66;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #5A5C66;
+    color: #fff;
+}
+
+.input::placeholder {
+    color: #B2B7BF;
+}
+
+.search-icon {
+    color: #fff;
+}

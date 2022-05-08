@@ -1,0 +1,43 @@
+.pagination-container {
+    width: 100%;
+    margin: 75px 0 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-item {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.pgn-btn {
+    border: none;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #474955;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.page-btn {
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    color: #474955;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.pgn-btn:hover, .page-btn:hover {
+    cursor: pointer;
+    color: #7EBC3C;
+}
+
+.active-page {
+    color: #7EBC3C;
+    text-decoration: underline;
+}
